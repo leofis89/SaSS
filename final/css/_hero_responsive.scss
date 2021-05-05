@@ -1,0 +1,19 @@
+
+    .hero{ 
+		.container {
+			@media (max-width: 630px) {
+				flex-direction: column;
+				text-align: center;
+
+				img {
+					order: -1;
+				}
+			}
+		}
+	}
+
+    .form-group {
+		@media (max-width: 630px) {
+			display: block;
+		}
+    }

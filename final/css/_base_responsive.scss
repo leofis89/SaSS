@@ -1,0 +1,11 @@
+html {
+    font-size: 50%;
+}
+
+#form {
+	@media (max-width: 320px) {
+		h3{
+			font-size: 2rem;
+		}
+	}
+}
